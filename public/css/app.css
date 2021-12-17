@@ -11292,6 +11292,13 @@ body {
   width: 8rem;
 }
 
+#site_main .homepage .hero_image {
+  height: 20rem;
+  background-image: url(../../img/jumbotron.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
 .brand_bk {
   background-color: #0282F9;
   color: white;

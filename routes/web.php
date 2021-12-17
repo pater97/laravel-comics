@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+
+    $cards = config('comics_db.cards');
+    return view('homepage',compact('cards'));
 });

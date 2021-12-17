@@ -59,8 +59,23 @@ body{
     }
 }
 
+// main///////////////////////////////////////////////
+#site_main{
+    // pagina principale
+    .homepage{
+        // immagine di sfondo
+        .hero_image{
+            height: 20rem;
+            background-image: url(../../img/jumbotron.jpg);
+            background-position: top;
+            background-size: cover;
+     }
+    }
+    
+}
 
-// utility
+
+// utility////////////////////////////////////////////
 .brand_bk{
     background-color: $brandColor;
     color: white;
