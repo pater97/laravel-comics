@@ -11298,14 +11298,14 @@ body {
   background-position: top;
   background-size: cover;
 }
-#site_main .homepage .container-fluid {
+#site_main .homepage .card_section {
   background-color: #1C1C1C;
 }
-#site_main .homepage .container-fluid .card_container {
+#site_main .homepage .card_section .card_container {
   padding: 4rem 0;
   position: relative;
 }
-#site_main .homepage .container-fluid .card_container .current_series {
+#site_main .homepage .card_section .card_container .current_series {
   position: absolute;
   top: -1.3rem;
   left: -0.8rem;
@@ -11313,14 +11313,30 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
 }
-#site_main .homepage .container-fluid .card_container .card {
+#site_main .homepage .card_section .card_container .card {
   color: #d6d6d6;
   border: none;
   background-color: transparent;
 }
-#site_main .homepage .container-fluid .card_container .card h5 {
+#site_main .homepage .card_section .card_container .card h5 {
   margin-top: 1rem;
   font-size: 0.9rem;
+}
+#site_main .homepage .blue_option {
+  padding: 2rem 0;
+}
+#site_main .homepage .blue_option .row div {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#site_main .homepage .blue_option .row div img {
+  height: 5rem;
+  margin-right: 1rem;
+}
+#site_main .homepage .blue_option .row div h5 {
+  font-size: 0.8rem;
 }
 
 .brand_bk {
