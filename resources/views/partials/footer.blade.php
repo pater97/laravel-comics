@@ -1,5 +1,5 @@
 <footer>
-    <section class="footer_link">
+    <section class="footer_link position-relative">
         <div class="container d-flex flex-wrap">
             <div class="col-md-2">
                 <h2>
@@ -46,13 +46,29 @@
             </div>
             <div class="col-12">
                 <p>
-                    All site content TM and C 2020 DC ENTERTAINMENT,unless otherwise <span class="blue_link">noted here</span>. All rigths reserved. <br>
+                    All site content TM and C 2020 DC ENTERTAINMENT,unless otherwise <span class="blue_link">noted here</span>. All rigths reserved.
                     <span class="blue_link">Cookies Settings</span>
                 </p>
             </div>
+            <div class="logo_footer position-absolute">
+            </div>
         </div>
     </section>
-    <section class="log_in">
-
+    <section class="log_in container-fluid">
+        <div class="container">
+            <div class="sing_up">
+                <div>
+                    <a href="">SING-IP NOW!</a>
+                </div>
+            </div>
+            <div class="follow_us">
+                <a href="">FOLLOW US</a>
+                <img src="../../img/footer-facebook.png" alt="">
+                <img src="../../img/footer-twitter.png" alt="">
+                <img src="../../img/footer-youtube.png" alt="">
+                <img src="../../img/footer-pinterest.png" alt="">
+                <img src="../../img/footer-periscope.png" alt="">
+            </div>
+        </div>
     </section>
 </footer>

@@ -11322,6 +11322,13 @@ body {
   margin-top: 1rem;
   font-size: 0.9rem;
 }
+#site_main .homepage .card_section .button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #0282F9;
+  box-shadow: 0px 0px 5px 5px #0282F9;
+  transition: ease-in-out all 0.5s;
+}
 #site_main .homepage .blue_option {
   padding: 2rem 0;
 }
@@ -11343,6 +11350,7 @@ body {
   background-image: url(../../img/footer-bg.jpg);
   background-size: cover;
   padding: 5rem 0;
+  z-index: 1;
 }
 .footer_link .col-md-2 {
   display: flex;
@@ -11369,6 +11377,49 @@ body {
 }
 .footer_link .col-12 .blue_link {
   color: #0282F9;
+}
+.footer_link .col-12 p {
+  width: 50%;
+  font-size: 0.8rem;
+}
+.footer_link .logo_footer {
+  background-image: url(../../img/dc-logo-bg.png);
+  z-index: 5;
+  height: 35rem;
+  width: 40rem;
+  top: -3rem;
+  background-repeat: no-repeat;
+  right: 0;
+  background-size: cover;
+}
+
+.log_in {
+  background-color: #303030;
+  padding: 2rem 0;
+}
+.log_in .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.log_in .container .sing_up div {
+  border: 1px solid #0282F9;
+  padding: 1rem;
+}
+.log_in .container .sing_up div a {
+  color: white;
+  text-decoration: none;
+}
+.log_in .container .follow_us {
+  display: flex;
+  align-items: center;
+}
+.log_in .container .follow_us a {
+  color: #0282F9;
+  text-decoration: none;
+}
+.log_in .container .follow_us img {
+  padding-left: 1rem;
 }
 
 .brand_bk {
