@@ -11351,6 +11351,7 @@ body {
   background-size: cover;
   padding: 5rem 0;
   z-index: 1;
+  overflow: hidden;
 }
 .footer_link .col-md-2 {
   display: flex;

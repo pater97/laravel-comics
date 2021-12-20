@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('page-title','homepage')
+@section('page-title','comics')
 
 @section('content')
 @include('partials.comics')

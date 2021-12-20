@@ -16,10 +16,10 @@
             </div>
             <nav class="d-flex">
                 <div>
-                    <a href="">CHARACTERS</a>
+                    <a href="{{url('characters')}}">CHARACTERS</a>
                 </div>
                 <div>
-                    <a href="">COMICS</a>
+                    <a href="{{url('comicsPage')}}">COMICS</a>
                 </div>
                 <div>
                     <a href="">MOVIES</a>
