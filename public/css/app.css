@@ -11346,6 +11346,53 @@ body {
   font-size: 0.8rem;
 }
 
+#show_page .hero_image {
+  height: 17rem;
+  background-image: url(../../img/jumbotron.jpg);
+  background-position: top;
+  background-size: cover;
+}
+#show_page .hero_image .container {
+  height: 100%;
+}
+#show_page .hero_image .container .card_section {
+  width: 9rem;
+  bottom: -2rem;
+}
+#show_page .hero_image .container .card_section .gallery, #show_page .hero_image .container .card_section .comic_book {
+  background-color: #00A9D9;
+  color: white;
+  font-size: 0.8rem;
+}
+#show_page .hero_image .container .card_section .gallery {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#show_page .blue_band {
+  height: 3rem;
+}
+#show_page .description h1 {
+  font-size: 2rem;
+}
+#show_page .description .green_bar {
+  background-color: #55BA59;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.8rem;
+}
+#show_page .description .green_bar .col-9 {
+  display: flex;
+  justify-content: space-between;
+}
+#show_page .description .green_bar .col-9 span {
+  color: #ABED72;
+}
+#show_page .description .green_bar .col-9 i {
+  font-size: 0.7rem;
+}
+
 .footer_link {
   background-image: url(../../img/footer-bg.jpg);
   background-size: cover;
